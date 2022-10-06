@@ -70,8 +70,10 @@ img{
 
 /* 基本樣式區域 */
 
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
 body{
-    font-family: noto sans cjk tc regular;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p, li{
@@ -133,6 +135,7 @@ h6::after{
 
 /* header */
 
+
 .header{
     display: flex;
     justify-content: flex-start;
@@ -149,16 +152,17 @@ h6::after{
     margin-right: 80px;
 }
 
+
 .intro h1{
     font-size: 30px;
-    font-weight: bold;
+    font-weight: semibold;
     color: #625243;
-    font-family: cwTeXYen;
+    font-family: "cwTeXYen", sans-serif;    
     margin-bottom: 16px;
 }
 
 .intro h2{
-    font-size: 16px;
+    font-size: 18px;
     color:#222222;
     margin-bottom: 48px;
     line-height: 1.2;
@@ -225,7 +229,7 @@ hr{
 
 
 .workexperience p{
-    margin-bottom: 24px;
+    margin-bottom: 12px;
     letter-spacing: 0;
 }
 
