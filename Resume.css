@@ -88,6 +88,7 @@ h4{
     position: relative;
     z-index: 1;
 }
+
 h4::after {
     content: "";
     display: block;
@@ -95,11 +96,11 @@ h4::after {
     width: 24px;
     position: absolute;
     left: 0;
-    top: 0;
+    top: -4px;
     border-radius: 100px;
-    background-color: gray;
+    background-color: #f0ece3;
     z-index: -1;
-    transform: translateX(-50%);
+    transform: translateX(-40%);
 }
 
 h5{
@@ -112,6 +113,22 @@ h6{
     font-size: 16px;
     color:#222222;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+h6::after{
+    content: "";
+    display: block;
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    border-radius: 100px;
+    background-color: #222222;
+    z-index: -1;
+    transform: translateX(-470%);
 }
 
 /* header */
